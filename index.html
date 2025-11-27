@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Лучшие HR Mark Formelle</title>
+  <title>Вакансия: Продавец-консультант — Mark Formelle</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
@@ -10,31 +10,69 @@
       margin: 0;
       background: #fdfdfd;
       color: #222;
-      line-height: 1.6;
     }
     header {
-      background: #e6007e; /* фирменный цвет Mark Formelle */
+      background: #e6007e;
       color: #fff;
-      padding: 20px;
+      padding: 40px 20px;
       text-align: center;
     }
-    h1 { margin: 0; }
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
     section {
       max-width: 800px;
       margin: 40px auto;
       padding: 0 20px;
     }
-    .card {
+    .benefits {
       background: #fff;
       border: 1px solid #ddd;
-      border-radius: 10px;
+      border-radius: 12px;
       padding: 20px;
-      margin-bottom: 20px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     }
-    .card h2 {
-      margin-top: 0;
+    .benefits h2 {
       color: #e6007e;
+    }
+    .benefits ul {
+      list-style: none;
+      padding: 0;
+    }
+    .benefits li {
+      margin-bottom: 12px;
+      padding-left: 24px;
+      position: relative;
+    }
+    .benefits li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #e6007e;
+      font-weight: bold;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .cta p {
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+    .cta .phone {
+      font-size: 32px;
+      font-weight: bold;
+      color: #e6007e;
+    }
+    .qr {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .qr img {
+      width: 160px;
+      height: 160px;
     }
     footer {
       background: #222;
@@ -48,44 +86,33 @@
 <body>
 
 <header>
-  <h1>Лучшие HR Mark Formelle</h1>
-  <p>Да, мы задолбались искать кандидатов… но мы всё равно лучшие 💪</p>
+  <h1>MARK FORMELLE</h1>
+  <p>ПРИГЛАШАЕМ ПРОДАВЦОВ-КОНСУЛЬТАНТОВ</p>
 </header>
 
 <section>
-  <div class="card">
-    <h2>Кто мы?</h2>
-    <p>Команда HR Mark Formelle — это люди, которые каждый день держат бренд в тонусе. 
-    Мы встречаем новых сотрудников, адаптируем их, организуем корпоративы и при этом 
-    бесконечно ищем «того самого» кандидата.</p>
-  </div>
-
-  <div class="card">
-    <h2>Почему мы лучшие?</h2>
+  <div class="benefits">
+    <h2>Мы предлагаем:</h2>
     <ul>
-      <li>Мы умеем находить таланты даже там, где их нет.</li>
-      <li>Мы превращаем собеседования в шоу.</li>
-      <li>Мы держим баланс между креативом и дисциплиной.</li>
-      <li>И да, мы задолбались искать кандидатов — но не сдаёмся!</li>
+      <li>Занятость полная и частичная</li>
+      <li>Скользящий график</li>
+      <li>Официальное трудоустройство</li>
+      <li>Полный соцпакет</li>
+      <li>Обучение с нуля</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h2>Наши будни</h2>
-    <p>Резюме, звонки, собеседования, тестовые задания, отчёты… 
-    Иногда кажется, что это бесконечный марафон. Но именно благодаря этому 
-    мы знаем: лучшие HR — это те, кто не боится трудностей.</p>
-  </div>
-
-  <div class="card">
-    <h2>Присоединяйся!</h2>
-    <p>Если ты готов к вызову и хочешь стать частью команды, 
-    знай: мы ищем тебя, даже если уже устали. 😉</p>
+  <div class="cta">
+    <p>Сканируй QR‑код или звони по номеру:</p>
+    <div class="phone">7469</div>
+    <div class="qr">
+      <img src="https://via.placeholder.com/160x160.png?text=QR" alt="QR-код для записи">
+    </div>
   </div>
 </section>
 
 <footer>
-  <p>© 2025 Mark Formelle HR Team</p>
+  © 2025 Mark Formelle • ООО «ФОРМЭЛЬ» УНП 690719790
 </footer>
 
 </body>
